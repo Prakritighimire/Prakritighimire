@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+    background-color: aqua;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   margin-top: 150px;
+
+}
+img{
+  clip-path: circle();
+}
+.container-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+   
+}
+.social-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.social-icon i{
+   margin: 6px;
+    font-size: 22px;
+}
+.copyright-section p{
+    background-color: black;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    margin-top: 201px;
+    padding: 5px;
+    font-size: 14px;
+
+}
